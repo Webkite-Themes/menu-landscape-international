@@ -42,7 +42,7 @@
             {{#facet name="Description"}}<p class="webkite-description">{{displayValue}}</p>{{/facet}}
           </div><!--
        --><div class="webkite-block thirty price">
-            {{#facet name="Price"}}<h3 class="until-xs">${{currency value}}</h3>{{/facet}}
+            {{#facet name="Price"}}<h3 class="until-xs">{{displayValue}}</h3>{{/facet}}
             <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">more</a>
             <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">less</a>
           </div>
