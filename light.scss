@@ -95,6 +95,7 @@ $colorVariant:light;
         width:45%;
         min-width:80px;
         vertical-align:top;
+        text-align: right;
         }
       .inline-filter-button {display: inline-block; padding-bottom:$mainGutter/4;}
       b{font-weight: 700;}
@@ -264,6 +265,7 @@ $colorVariant:light;
     max-height: 12.5em;
     overflow-y: auto;
     z-index: 2;
+    text-align: left;
     li {
       padding-bottom: 0;
       a{
