@@ -95,9 +95,10 @@ $colorVariant:light;
         min-width:80px;
         vertical-align:top;
         text-align: right;
+        padding:$mainGutter/5 0 $mainGutter/4;
         }
-      .inline-filter-button {display: inline-block; padding-bottom:$mainGutter/4;}
-      b{font-weight: 700;}
+      .inline-filter-button {display: inline-block; margin-top:-$mainGutter/5; line-height:inherit;}
+      b{font-weight: 700; display:inline-block; vertical-align:top; margin-top:1px; line-height:1;}
       span.facet-values{
         font: 400 13px/1 Georgia, serif;
         display:table-cell;
@@ -228,21 +229,15 @@ $colorVariant:light;
       font-weight:700;
       line-height:1;
       margin: 0;
-      padding: $mainGutter/5 $mainGutter/1.11 $mainGutter/5 $mainGutter/5;
-      margin-left: -$mainGutter/5;
+      padding: $mainGutter/5;
       position:relative;
       i{
-        height: 0;
-        width: 0;
-        border-width:5px;
-        border-color:$lightOpacity transparent transparent;
-        border-style:solid;
+        background: url("angle-light-sm.png") center center no-repeat;
+        display: inline-block;
+        height: 7px;
+        margin-left: 3px;
         pointer-events: none;
-        position:absolute;
-        top:50%;
-        right:4px;
-        margin-top:-2px;
-        opacity:0.35;
+        width: 7px;
         }
       &:hover{
         border: 1px solid $lighterOpacity;

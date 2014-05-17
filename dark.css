@@ -522,12 +522,18 @@
       width: 45%;
       min-width: 80px;
       vertical-align: top;
-      text-align: right; }
+      text-align: right;
+      padding: 4px 0 5px; }
     #webkite-results ul.webkite-list-grid li .inline-filter-button {
       display: inline-block;
-      padding-bottom: 5px; }
+      margin-top: -4px;
+      line-height: inherit; }
     #webkite-results ul.webkite-list-grid li b {
-      font-weight: 700; }
+      font-weight: 700;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 1px;
+      line-height: 1; }
     #webkite-results ul.webkite-list-grid li span.facet-values {
       font: 400 13px/1 Georgia, serif;
       display: table-cell;
@@ -556,7 +562,7 @@
   font-size: 12px;
   width: 50%; }
   #webkite-results .webkite-result:nth-child(even) {
-    border-left: 1px dotted rgba(255, 255, 255, 0.1);
+    border-left: 1px dotted rgba(255, 255, 255, 0.2);
     margin-left: -1px; }
   #webkite-results .webkite-result h2 {
     line-height: 1.1;
@@ -652,21 +658,15 @@
     font-weight: 700;
     line-height: 1;
     margin: 0;
-    padding: 4px 18.01802px 4px 4px;
-    margin-left: -4px;
+    padding: 4px;
     position: relative; }
     #webkite-results .webkite-block li b > .webkite-toggle i {
-      height: 0;
-      width: 0;
-      border-width: 5px;
-      border-color: rgba(255, 255, 255, 0.7) transparent transparent;
-      border-style: solid;
+      background: url("angle-dark-sm.png") center center no-repeat;
+      display: inline-block;
+      height: 7px;
+      margin-left: 3px;
       pointer-events: none;
-      position: absolute;
-      top: 50%;
-      right: 4px;
-      margin-top: -2px;
-      opacity: 0.35; }
+      width: 7px; }
     #webkite-results .webkite-block li b > .webkite-toggle:hover {
       border: 1px solid rgba(255, 255, 255, 0.1);
       background: rgba(255, 255, 255, 0.05); }
