@@ -68,7 +68,6 @@ $colorVariant:light;
       width: 100%;
       padding: 0;
       text-align:justify;
-      @include breakThat;
       }
     &.seventy{width:70%;}
     &.sixty{width:60%;}
@@ -135,7 +134,6 @@ $colorVariant:light;
     padding: 0 $mainGutter/2;
     font-size:12px;
     width:50%;
-    @include breakThat;
     &:nth-child(even){
       border-left:1px solid $lightestOpacity;
       margin-left:-1px;
