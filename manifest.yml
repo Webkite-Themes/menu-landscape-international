@@ -1,6 +1,8 @@
 images:
   - angle-light.png
   - angle-dark.png
+  - angle-light-sm.png
+  - angle-dark-sm.png
   - plus-light.png
   - plus-dark.png
   - branding-light.svg
