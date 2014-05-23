@@ -746,10 +746,8 @@
 
 /******************************************* NO RESULTS */
 #webkite-results .webkite-no-results {
-  padding: 0 10px 20px;
-  font-size: 12px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+  padding: 0 10px;
+  font-size: 12px; }
   #webkite-results .webkite-no-results h2 {
     margin-bottom: 20px; }
 
@@ -778,6 +776,9 @@
 #webkite-results.xs .webkite-block .inline-filter-menu li a {
   max-width: 100%;
   width: auto; }
+#webkite-results.xs .webkite-no-results {
+  padding: 0;
+  margin-bottom: 20px; }
 
 #webkite-results.sm .webkite-results-wrapper {
   margin: 0; }
@@ -796,6 +797,9 @@
     font-size: 12px; }
 #webkite-results.sm ul.webkite-list-grid li > div {
   width: 30%; }
+#webkite-results.sm .webkite-no-results {
+  padding: 0;
+  margin-bottom: 20px; }
 
 /*************************** DISPLAY RULES */
 #webkite-results .xs-only {

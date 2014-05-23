@@ -281,10 +281,8 @@ $colorVariant:light;
 #webkite-results{
   
   .webkite-no-results{
-    padding: 0 $mainGutter/2 $mainGutter;
+    padding: 0 $mainGutter/2;
     font-size:12px;
-    margin-bottom:$mainGutter;
-    border-bottom:1px solid $lightestOpacity;
     h2{
       margin-bottom: $mainGutter;
       }
@@ -324,6 +322,10 @@ $colorVariant:light;
     max-width: 100%;
     width: auto;
     }
+  .webkite-no-results{
+    padding: 0;
+    margin-bottom:20px;
+    }    
   }
   
 #webkite-results.sm{
@@ -350,7 +352,10 @@ $colorVariant:light;
   ul.webkite-list-grid li > div {
     width:30%;
     }
-
+  .webkite-no-results{
+    padding: 0;
+    margin-bottom:20px;
+    }    
   }
   
 /*************************** DISPLAY RULES */

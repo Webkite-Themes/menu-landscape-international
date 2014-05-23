@@ -283,10 +283,8 @@ $dottedBorder: rgba(255,255,255,0.2);
 #webkite-results{
   
   .webkite-no-results{
-    padding: 0 $mainGutter/2 $mainGutter;
+    padding: 0 $mainGutter/2;
     font-size:12px;
-    margin-bottom:$mainGutter;
-    border-bottom:1px solid $lightestOpacity;
     h2{
       margin-bottom: $mainGutter;
       }
@@ -327,6 +325,10 @@ $dottedBorder: rgba(255,255,255,0.2);
     max-width: 100%;
     width: auto;
     }
+  .webkite-no-results{
+    padding: 0;
+    margin-bottom:20px;
+    }    
   }
   
 #webkite-results.sm{
@@ -353,7 +355,10 @@ $dottedBorder: rgba(255,255,255,0.2);
   ul.webkite-list-grid li > div {
     width:30%;
     }
-
+  .webkite-no-results{
+    padding: 0;
+    margin-bottom:20px;
+    }    
   }
   
 /*************************** DISPLAY RULES */
