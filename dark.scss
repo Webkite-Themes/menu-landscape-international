@@ -286,6 +286,7 @@ $dottedBorder: rgba(255,255,255,0.2);
     padding: 0 $mainGutter/2 $mainGutter;
     font-size:12px;
     margin-bottom:$mainGutter;
+    border-bottom:1px solid $lightestOpacity;
     h2{
       margin-bottom: $mainGutter;
       }
@@ -295,23 +296,9 @@ $dottedBorder: rgba(255,255,255,0.2);
   
 /************************************** ELEMENT QUERIES */
 #webkite-results.xs{
-  .webkite-block,.webkite-title-area, .webkite-branding-area, .webkite-pagination-area{
+  .webkite-block{
     width: 100%;
     padding-right: 0;
-    }
-  .webkite-filter-area, .webkite-sort-area, .webkite-sort-area > .webkite-toggle{
-    width: 100%;
-    }
-  .webkite-sort-area > .webkite-toggle i{
-    float: right; margin-top: $mainGutter/4;
-    }
-  .sort-menu{width: 95%;}
-  .webkite-sort-area+.webkite-filter-area{
-    margin-top: $mainGutter;
-    }
-  .webkite-filter-area{
-    margin-left: 0;
-    padding-left: 0;
     }
   .webkite-results-wrapper {
     margin:0;
@@ -340,32 +327,9 @@ $dottedBorder: rgba(255,255,255,0.2);
     max-width: 100%;
     width: auto;
     }
-  .webkite-title-area, .webkite-branding-area, .webkite-pagination-area{
-    text-align: center;
-    }
-  .webkite-branding-area{
-    padding-bottom: $mainGutter; 
-    }
-  .webkite-results-footer{
-    height: 110px;
-    }
   }
   
 #webkite-results.sm{
-  .webkite-filter-area, .webkite-sort-area, .webkite-sort-area > .webkite-toggle{
-    width: 100%;
-    }
-  .webkite-sort-area > .webkite-toggle i{
-    float: right; margin-top: $mainGutter/4;
-    }
-  .sort-menu{width: 95%;}
-  .webkite-sort-area+.webkite-filter-area{
-    margin-top: $mainGutter;
-    }
-  .webkite-filter-area{
-    margin-left: 0;
-    padding-left: 0;
-    }
   .webkite-results-wrapper {
     margin:0;
     }
