@@ -23,3 +23,9 @@ partials:
   - paginator.handlebars.js
   - filters.handlebars.js
   - sorts.handlebars.js
+  
+pagination:
+  - 10
+  - 25
+  - 50
+  - 100
