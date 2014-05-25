@@ -609,7 +609,11 @@
   #webkite-results .webkite-result .xs-price {
     font-weight: 400;
     line-height: 1;
-    margin: -2px 0 8px; }
+    margin: -2px 0 0;
+    padding-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
 #webkite-results .webkite-result-header {
   line-height: 1;
   margin-bottom: 4px; }
@@ -630,6 +634,10 @@
     margin-top: 1px; }
 #webkite-results .price {
   text-align: right; }
+  #webkite-results .price h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
 #webkite-results a.more-button, #webkite-results a.less-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

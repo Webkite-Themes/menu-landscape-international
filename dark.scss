@@ -148,7 +148,11 @@ $dottedBorder: rgba(255,255,255,0.2);
     .xs-price {
       font-weight:400;
       line-height:1;
-      margin:-$mainGutter/10 0 $mainGutter/2.5;
+      margin:-$mainGutter/10 0 0;
+      padding-bottom:$mainGutter/2.5;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space:nowrap;
       }
     }
   .webkite-result-header {
@@ -169,6 +173,11 @@ $dottedBorder: rgba(255,255,255,0.2);
     }
   .price{
     text-align: right;
+    h3 {
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space:nowrap;
+      }
     }
   a.more-button, a.less-button{
     @include boxedUp;
