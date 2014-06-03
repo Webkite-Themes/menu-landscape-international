@@ -1,31 +1,36 @@
-images:
-  - angle-light.png
-  - angle-dark.png
-  - angle-light-sm.png
-  - angle-dark-sm.png
-  - plus-light.png
-  - plus-dark.png
-  - branding-light.svg
-  - branding-dark.svg
-  - clear-all-icon.png
-  - sort-direction.png
-  - gradient-fallback-light.png
-  - gradient-fallback-dark.png
-
-stylesheets:
-  - light.css
-  - dark.css
-
-templates:
-  - results.handlebars.js
-
-partials:
-  - paginator.handlebars.js
-  - filters.handlebars.js
-  - sorts.handlebars.js
+theme:
+  name: menu-landscape-international
   
-pagination:
-  - 10
-  - 25
-  - 50
-  - 100
+settings:
+  pagination:
+    - 10
+    - 25
+    - 50
+    - 100
+
+assets:
+  images:
+    - angle-light.png
+    - angle-dark.png
+    - angle-light-sm.png
+    - angle-dark-sm.png
+    - plus-light.png
+    - plus-dark.png
+    - branding-light.svg
+    - branding-dark.svg
+    - clear-all-icon.png
+    - sort-direction.png
+    - gradient-fallback-light.png
+    - gradient-fallback-dark.png
+  
+  stylesheets:
+    - light.css
+    - dark.css
+  
+  templates:
+    - results.handlebars.js
+  
+  partials:
+    - paginator.handlebars.js
+    - filters.handlebars.js
+    - sorts.handlebars.js
