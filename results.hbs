@@ -43,8 +43,10 @@
           </div><!--
        --><div class="webkite-block thirty price">
             {{#facet name="Price"}}<h3 class="until-xs" title="{{displayValue}}">{{displayValue}}</h3>{{/facet}}
-            <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">more</a>
-            <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">less</a>
+            {{#any (find facets name="Meal") (find facets name="Dish Type") (find facets name="Diet") (find facets name="Calories") (find facets name="Total Fat (g)") (find facets name="Cholesterol (mg)")}}
+              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">more</a>
+              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">less</a>
+            {{/any}}
           </div>
         </div>
             
@@ -145,7 +147,6 @@
     <section class="webkite-no-results">
       <h2>Sorry, no results</h2>
       <p>There are no results to display based on the selected filters. Try removing a filter to see more results.</p>
-      <footer class="webkite-result-footer"></footer>
     </section>
     
   {{/if}}
